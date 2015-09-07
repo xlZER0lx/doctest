@@ -1,0 +1,7 @@
+cantidadPesos = input("Cantidad de pesos")
+valorDolar = input("Valor del dolar")
+
+equivalencia = cantidadPesos / valorDolar
+
+print("La equivalencia es: ")
+print(round(equivalencia))

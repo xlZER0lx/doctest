@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+
+sueldo = input("Sueldo Base ")
+venta1 = input("Valor de la venta 1 ")
+venta2 = input("Valor de la venta 2 ")
+venta3 = input("Valor de la venta 3 ")
+
+totalVentas = venta1 + venta2 + venta3
+
+com = totalVentas * .10
+print("Comission por Ventas: ")
+print(com)
+print("Sueldo base mas comisiones: ")
+print(sueldo + com)

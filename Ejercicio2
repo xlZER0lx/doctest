@@ -1,0 +1,6 @@
+totalcompra = input("Total de compra ")
+
+resultado = totalcompra - (totalcompra * .15)
+
+print ("Total a pagar es: ")
+print (resultado)

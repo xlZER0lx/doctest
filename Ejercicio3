@@ -1,0 +1,8 @@
+examen1 = input("Calificacion del examen1 ")
+examen2 = input("Calificacion del examen2 ")
+examen3 = input("Calificacion del examen3 ")
+
+calificacion = (examen1 + examen2 + examen3) / 3
+
+print("Tu calificacion es: ")
+print(calificacion)

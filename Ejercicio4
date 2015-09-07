@@ -1,0 +1,12 @@
+hombres = input("cantidad de hombres" )
+mujeres = input("cantidad de mujeres" )
+
+grupo = hombres + mujeres
+
+porcentajeHombres = (hombres * 100) / grupo
+porcentajeMujeres = (mujeres * 100) / grupo
+
+print("Porcentaje hombres")
+print(porcentajeHombres)
+print("Porcentaje mujeres")
+print(porcentajeMujeres)
